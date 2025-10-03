@@ -1,0 +1,39 @@
+/*
+ * Copyright (c) 2025 Rubén Bécares Álvarez
+ *
+ * Licencia: CC BY-NC 4.0
+ * Uso permitido solo para fines personales o educativos.
+ * Prohibido el uso comercial sin autorización expresa del autor.
+ * Última modificación: 30/9/2025
+ *
+ *
+ */
+
+package clase04_arrays.ejercicios;
+
+import java.util.Scanner;
+
+/**
+ * Reto Nombres
+ * ----------------------------------------
+ * Instrucciones:
+ * 1. Crea un array de Strings con 3 posiciones.
+ * 2. Pide al usuario los nombres.
+ * 3. Muéstralos usando un for-each.
+ */
+public class RetoNombres {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] nombres = new String[3];
+
+        for (int i = 0; i < nombres.length; i++) {
+            System.out.print("Introduce el nombre " + (i+1) + ": ");
+            nombres[i] = sc.nextLine();
+        }
+
+        System.out.println("Los nombres introducidos son:");
+        for (String nombre : nombres) {
+            System.out.println(nombre);
+        }
+    }
+}
