@@ -63,6 +63,7 @@ public class Clase03Enunciados {
     }
 
     // 10. Usa if/else para devolver "Número dentro de rango" si 1 menor o igual que n y n menor o igual que 10
+    // si no devuelve "Número fuera de rango"
     public String ejercicio10(int n) {
         return "";
     }
@@ -95,6 +96,7 @@ public class Clase03Enunciados {
     }
 
     // 15. Usa if/else para devolver "Divisible entre 2 y 3" si cumple ambas condiciones
+    // si no "No divisible entre 2 y 3"
     public String ejercicio15(int n) {
         return "";
     }
@@ -121,6 +123,7 @@ public class Clase03Enunciados {
     }
 
     // 20. Usa if/else para devolver "Dentro del rango" si el número está entre 100 y 200
+    // si no "Fuera del rango"
     public String ejercicio20(int n) {
         return "";
     }
